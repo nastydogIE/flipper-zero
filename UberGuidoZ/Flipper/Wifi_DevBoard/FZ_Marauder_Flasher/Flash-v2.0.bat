@@ -24,12 +24,12 @@ GOTO ERREXIT
 echo.
 echo Which action would you like to perform?
 echo.
-echo 1. Flash Marauder
+echo 1.
 echo 2. Update Marauder (v0.10.0 included)
 echo 3. Save Flipper Blackmagic WiFi settings
 echo 4. Flash Flipper Blackmagic
 echo.
-set choice_fw=
+set choice_fw= flash marauder
 set /p choice_fw= Type choice and hit enter: 
 if '%choice_fw%'=='1' GOTO MARAUDER
 if '%choice_fw%'=='2' GOTO UPDATE
